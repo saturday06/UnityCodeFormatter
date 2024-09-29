@@ -200,3 +200,6 @@ insert_final_newline = unset
 indent_size = unset
 insert_final_newline = unset
 trim_trailing_whitespace = unset
+
+[*.json5]
+indent_size = 2
