@@ -1,22 +1,17 @@
 #nullable enable
 
-using UnityEditor;
-using System.IO;
-using UnityEngine;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using UnityEditor;
 using UnityEditor.Experimental;
-using UnityEngine;
 
 namespace UnityCodeFormatter.Editor
 {
     public class CsharpierCodeFormatter : AssetsModifiedProcessor
     {
         [MenuItem("Tools/UnityCodeFormatter/Format")]
-        public static void Format() {
-        }
+        public static void Format() { }
 
         public static readonly string DotnetFileName = "C:\\Program Files\\dotnet\\dotnet.exe"; // TODO: 触る環境が増えたら考える
 
