@@ -4,5 +4,6 @@
 *.json text eol=lf
 *.md text eol=lf
 *.meta text eol=lf
+*.yml text eol=lf
 .* text eol=lf
 csc.rsp text eol=lf
