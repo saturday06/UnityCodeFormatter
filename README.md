@@ -1,6 +1,10 @@
 # Unity Code Formatter (仮)
 
-Unityで使えるエディタ中立のC#コードフォーマッターを目指します
+Unityで使えるエディタ中立のC#コードフォーマッターを目指します。次のフォーマッターに対応予定です。
+
+- CSharpier
+- dotnet format
+- JetBrains CleanupCode
 
 ## インストール方法
 
