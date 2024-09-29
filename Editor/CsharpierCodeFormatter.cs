@@ -13,7 +13,8 @@ namespace UnityCodeFormatter.Editor
         [MenuItem("Tools/UnityCodeFormatter/Format")]
         public static void Format() { }
 
-        public static readonly string DotnetFileName = "C:\\Program Files\\dotnet\\dotnet.exe"; // TODO: 触る環境が増えたら考える
+        // TODO: Libraryフォルダ内にフォルダ掘って自動インストールする
+        public static readonly string DotnetFileName = "C:\\Program Files\\dotnet\\dotnet.exe";
 
         protected override void OnAssetsModified(
             string[] changedAssets,
