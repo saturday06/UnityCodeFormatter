@@ -20,5 +20,5 @@ dependenciesの中に次の行を追加してください。
   {
     "dependencies": {
       ...
-+     "jp.leafytree.unitycodeformatter": "https://github.com/saturday06/UnityCodeFormatter.git",      
++     "jp.leafytree.unitycodeformatter": "https://github.com/saturday06/UnityCodeFormatter.git",
 ```
