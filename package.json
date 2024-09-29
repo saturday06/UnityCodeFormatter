@@ -1,0 +1,12 @@
+{
+  "name": "jp.leafytree.unitycodeformatter",
+  "version": "1.0.0",
+  "displayName": "Unity Code Formatter",
+  "description": "Unityで使えるエディタ中立のコードフォーマッターを目指します",
+  "unity": "2022.3",
+  "author": {
+    "name": "Isamu Mogi",
+    "email": "isamu@leafytree.jp",
+    "url": "https://github.com/saturday06/UnityCodeFormatter"
+  }
+}
