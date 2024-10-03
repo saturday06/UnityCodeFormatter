@@ -1,4 +1,4 @@
-# Unity Code Formatter (仮)
+# Unity Code Formatter (仮) <img alt="CI status" src="https://github.com/saturday06/UnityCodeFormatter/actions/workflows/lint.yml/badge.svg"></a>
 
 Unityで使えるエディタ中立のC#コードフォーマッターを目指します。次のフォーマッターに対応予定です。
 
