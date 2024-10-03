@@ -196,6 +196,11 @@ end_of_line = crlf
 [*.asmdef]
 insert_final_newline = unset
 
+[*.cs]
+# コード分析を有効化してエラー扱いにする
+# 厳しすぎると感じるものやUnityに未対応のものは個別に無効化する
+dotnet_analyzer_diagnostic.severity = error
+
 [*.md]
 indent_size = 2
 
