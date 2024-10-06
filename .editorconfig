@@ -201,6 +201,12 @@ insert_final_newline = unset
 # 厳しすぎると感じるものやUnityに未対応のものは個別に無効化する
 dotnet_analyzer_diagnostic.severity = warning
 
+# メソッドにExpression Bodyを使うかどうかは個別に決定する
+csharp_style_expression_bodied_methods = false:silent
+
+# メソッドの戻り値を無視していたら警告するのを抑制。本当は有効にしたほうが良い気もするが今は切る
+csharp_style_unused_value_expression_statement_preference = false:silent
+
 [*.md]
 indent_size = 2
 
