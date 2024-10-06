@@ -65,10 +65,19 @@ namespace UnityCodeFormatter.Editor
             {
                 processStartInfo = new System.Diagnostics.ProcessStartInfo
                 {
-                    FileName = "powershell", // TODO: 本当にこれが良いか?
+                    FileName = "powershell", // TODO: 絶対パスのほうが良いか？
                     CreateNoWindow = true,
-                    // ArgumentList = { "-File", installerPath },
-                    ArgumentList = { "/?" },
+                    ArgumentList =
+                    {
+                        "-ExecutionPolicy",
+                        "RemoteSigned",
+                        "-File",
+                        installerPath,
+                        "-InstallDir",
+                        InstallBasePath,
+                        "-Channel",
+                        "8.0",
+                    },
                 };
             }
             else
