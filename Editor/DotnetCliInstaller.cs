@@ -102,11 +102,9 @@ namespace UnityCodeFormatter.Editor
 
                 // インストーラースクリプトを実行
                 Progress.Report(progressId, 0.1f, "Executing installer script");
-                using var process = new System.Diagnostics.Process
-                {
-                    StartInfo = processStartInfo,
-                    EnableRaisingEvents = true,
-                };
+                using var process = new System.Diagnostics.Process();
+                process.StartInfo = processStartInfo;
+                process.EnableRaisingEvents = true;
 
                 var processTaskCompletionSource = new TaskCompletionSource<bool>();
                 process.Exited += (sender, args) => processTaskCompletionSource.SetResult(true);
