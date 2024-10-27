@@ -59,10 +59,10 @@ namespace UnityCodeFormatter.Editor
                     }
                     process.WaitForExit();
                 }
-                catch (Win32Exception)
+                catch (Win32Exception e)
                 {
-                    // TODO: 触る環境が増えたら考える
-                    throw;
+                    UnityEngine.Debug.LogException(e);
+                    return;
                 }
 
                 foreach (string formattingAssetPath in formattingAssetPaths)
