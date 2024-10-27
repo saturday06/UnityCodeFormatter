@@ -52,6 +52,11 @@ namespace UnityCodeFormatter.Editor
                 try
                 {
                     using var process = Process.Start(processStartInfo);
+                    if (process == null)
+                    {
+                        UnityEngine.Debug.LogError("Failed to launch csharpier");
+                        return;
+                    }
                     process.WaitForExit();
                 }
                 catch (Win32Exception)
