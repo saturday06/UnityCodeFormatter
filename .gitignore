@@ -1,0 +1,13 @@
+/.vscode/
+/.vs/
+/.idea/
+/DevelopmentProjects~/*/.vscode/
+/DevelopmentProjects~/*/.vs/
+/DevelopmentProjects~/*/.idea/
+/DevelopmentProjects~/*/Logs/
+/DevelopmentProjects~/*/Temp/
+/DevelopmentProjects~/*/UserSettings/
+/DevelopmentProjects~/*/Library/
+/DevelopmentProjects~/*/obj/
+/DevelopmentProjects~/*/*.sln
+/DevelopmentProjects~/*/*.csproj
